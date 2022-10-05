@@ -1,0 +1,34 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#welcome {
+  padding: 1rem;
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+}
+
+#author {
+  float: inline-end;
+  color: gray;
+}
+
+#dropdown {
+  margin: 2rem;
+}
+
+#example-2-menu {
+  background-color: rgb(72, 131, 176);
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+
+#example-2-menu p {
+  font-size: small;
+  color: whitesmoke;
+}

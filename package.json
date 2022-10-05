@@ -1,0 +1,36 @@
+{
+  "name": "kwc-dropdown",
+  "version": "1.0.1",
+  "description": "A zero-dependency Dropdown Web Component",
+  "kwc_dropdown": "dist/kwc_dropdown.js",
+  "targets": {
+    "kwc_dropdown": {
+      "source": "src/index.ts"
+    },
+    "example": {
+      "source": "./public/index.html",
+      "distDir": "./example"
+    }
+  },
+  "scripts": {
+    "dev": "parcel --target example --dist-dir example",
+    "example": "parcel --target example --dist-dir example",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "component",
+    "dropdown"
+  ],
+  "author": "Keops <pierjcb@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.7.0",
+    "@parcel/transformer-inline-string": "^2.7.0",
+    "@parcel/transformer-typescript-types": "^2.7.0",
+    "parcel": "^2.7.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
+}
